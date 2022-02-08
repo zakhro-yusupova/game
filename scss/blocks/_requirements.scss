@@ -1,0 +1,104 @@
+.requirements{
+  background: radial-gradient(33.26% 45% at 64.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%);
+  background-image: url("../../images/bg-requirments.png");
+  background-repeat: no-repeat;
+  background-position: center top ;
+  background-size: 100%;
+  padding-top: 175px 0;
+}
+
+.requirements__inner{
+  display: flex;
+  flex-direction: column;
+}
+
+.requirements__strong{
+  display: block;
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white-color;
+  margin-top: 145px;
+  margin-bottom: 10px;
+}
+
+.requirements__title{
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $white-color;
+  margin: 0;
+  margin-bottom: 135px;
+}
+
+
+.requirements__table{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: $main-link-color;
+  margin-bottom: 160px;
+  position: relative;
+
+    &::before{
+      display: block;
+      content: "";
+      position: absolute;
+      width: 575px;
+      height: 402px;
+      background-image: url("../../images/table.png");
+      background-repeat: no-repeat;
+      left: 20px;
+      top: 18px;
+    }
+  }
+
+
+.requirements__table-row{
+  width: 615px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding: 20px;
+
+}
+
+.requirements__table-head{
+  width: 287px;
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: $orange-color;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #2C2E2E;
+}
+
+.requirements__text{
+  font-size: 18px;
+  line-height: 22px;
+  color: $white-color;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.thead{
+  width: 575px;
+  padding-right: 0;
+}
+
+.th{
+  padding-right: 10px;
+
+}

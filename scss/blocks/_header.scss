@@ -1,0 +1,192 @@
+.header{
+  background-image: url("../../images/game-header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  padding: 22px 0 55px;
+}
+
+.header__top-inner{
+  display: flex;
+  align-items: center;
+}
+
+.header__nav{
+  margin-right: 178px;
+  margin-left: 150px;
+}
+
+.header__list{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.header__item{
+  margin-left: 38px;
+}
+
+.header__link{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white-color;
+
+
+  &:hover{
+  color: $orange-color;
+  }
+}
+
+.header__right{
+  display: flex;
+  align-items: center;
+}
+
+.header__lang-menu{
+  display: none;
+}
+
+.header__lang{
+  position: relative;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: $white-color;
+  padding: 10px 0;
+border-right: 2px solid  rgba(255, 255, 255, 0.5);
+padding-right: 50px;
+
+  &::after{
+    content: "";
+    background-image: url("../../images/lang-scroll.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+    right: 27px;
+    width: 10px;
+    height: 5px;
+  }
+  &:hover > .header__lang-menu{
+    display: block;
+  }
+}
+.header__lang-list{
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  color: $white-color;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 3px;
+
+}
+
+.header__lang-link{
+  display: block;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin:5px 19px 5px 10px;
+  text-decoration: none;
+  color: $white-color;
+  transition: 1s ease;
+
+  &:hover{
+    color: $orange-color;
+  }
+}
+
+.header__img{
+  margin-left: 18px;
+}
+
+// header bottom
+
+.header__bottom-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 250px;
+}
+
+.header__title{
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $white-color;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.header__subtitle{
+  font-family: "Bebas Neue";
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 2px;
+color: $white-color;
+text-transform: uppercase;
+margin-bottom: 29px;
+}
+
+.header__sublink{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  background-color: $orange-color;
+  color: #1A1917;
+  padding: 20px ;
+  border-radius: 4px;
+  margin-bottom: 383px;
+  border: 2px solid transparent;
+  transition: 1s ease;
+
+  &:hover{
+    border: 2px solid $orange-color;
+  color: $orange-color;
+  background-color: #1A1917;
+  }
+}
+
+.header__text{
+  position: relative;
+  font-weight: bold;
+font-size: 12px;
+line-height: 22px;
+text-transform: uppercase;
+color: $white-color;
+
+&::after{
+  content: "";
+  background-image: url("../../images/scroll-down.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 28px;
+  right: 18px;
+  width: 25px;
+  height: 15px;
+}
+}

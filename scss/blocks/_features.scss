@@ -1,0 +1,136 @@
+.features{
+  background-image: url("../../images/bg-features.png");
+  background-repeat: no-repeat;
+  background-position:  center bottom ;
+  background-size: cover;
+
+}
+
+.features__inner{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 200px 0 256px;
+}
+
+.features__info{
+  width: 415px;
+}
+
+.features__strong{
+  display: block;
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: $white-color;
+  margin-bottom: 10px;
+}
+
+.features__title{
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: $white-color;
+  margin: 0;
+  margin-bottom: 71px;
+}
+
+.features__subinfo{
+  width: 363px;
+  margin-left: 40px;
+
+}
+
+
+.features__subtitle{
+  font-family: Bebas Neue;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 2px;
+  color: $orange-color;
+  margin: 0;
+}
+
+.first-title{
+  position: relative;
+
+  &::before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: -40px;
+    top: 10px;
+    border: 1.30637px solid #FFFFFF;
+    border-radius: 50px;
+    transform: rotate(90deg);
+    background-color: $white-color;
+  }
+}
+
+
+.features__text{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: $white-color;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 28px;
+  position: relative;
+
+&::before{
+  display: block;
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 130px;
+  left: -35px;
+  top: -29px;
+  border: 1.95955px solid $white-color;
+  background-color: $white-color;
+}
+}
+
+.second-title{
+  position: relative;
+
+  &::before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: -40px;
+    top: 8px;
+    border: 1.30637px solid #FFFFFF;
+    border-radius: 50px;
+    transform: rotate(90deg);
+  }
+}
+
+
+.last-title{
+  position: relative;
+  margin-top: 38px;
+
+  &::before{
+    display: block;
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: -40px;
+    top: 8px;
+    border: 1.30637px solid #FFFFFF;
+    border-radius: 50px;
+    transform: rotate(90deg);
+  }
+}

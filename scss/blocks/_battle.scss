@@ -1,0 +1,88 @@
+.battle{
+  background-image: url("../../images/battle-bg-section.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  padding: 278px 0 337px;
+}
+
+.battle__info{
+  width: 800px;
+  color: $white-color;
+  position: relative;
+
+
+    &::before{
+      content: "";
+      background-image: url("../../images/battle-line.png");
+      background-repeat: no-repeat;
+      position: absolute;
+      z-index: 2;
+      top: 200px;
+     left: 0;
+      width: 713px;
+      height: 4px;
+  }
+
+
+  &::after{
+    content: "";
+    background-image: url("../../images/battle-bg.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    position: absolute;
+    top: -80px;
+   right: -400px;
+    width: 606px;
+    height: 612px;
+}
+}
+
+.battle__strong{
+  display: block;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.battle__title{
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.battle__text-box{
+  width: 365px;
+  margin-top: 60px;
+  margin-left: 190px;
+}
+
+.battle__text{
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+}
+
+  .battle__text-color{
+  position: relative;
+
+  &::after{
+    content: "";
+    background-image: url("../../images/underline.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 17px;
+   left: -1px;
+    width: 123px;
+    height: 7px;
+}
+}
